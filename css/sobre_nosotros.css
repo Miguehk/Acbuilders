@@ -1,0 +1,23 @@
+.sobre_nosotros{
+    margin-top: 230px;
+    padding-left: 340px;
+    padding-right: 340px;
+}
+.img_sobre{
+    height: 635px;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .img_sobre{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .sobre_nosotros{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
